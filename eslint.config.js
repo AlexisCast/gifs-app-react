@@ -27,6 +27,7 @@ export default tseslint.config([
         Object.entries((await import('eslint-config-prettier')).rules || {})
       ),
       'prettier/prettier': 'warn',
+      'no-extra-semi': 'off',
     },
   },
 ])
