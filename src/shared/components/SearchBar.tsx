@@ -10,7 +10,7 @@ export const SearchBar = ({ placeholder = 'Search...', onQuery }: Props) => {
 
   useEffect(() => {
     const timeOutId = setTimeout(() => {
-      onQuery(query)
+      // onQuery(query)
     }, 1000) // 1 second delay
 
     return () => {
@@ -21,7 +21,7 @@ export const SearchBar = ({ placeholder = 'Search...', onQuery }: Props) => {
 
   const handleSearch = () => {
     onQuery(query)
-    // setQuery('')
+    setQuery('') // Clear the input after search
   }
 
   const handleKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
