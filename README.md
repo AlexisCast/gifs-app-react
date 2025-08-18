@@ -10,3 +10,4 @@
 - feat 6: axios with giqhy api
 - feat 7: environment variables
 - feat 8: show gifs from giphy api
+- feat 9: useGif custom hook
