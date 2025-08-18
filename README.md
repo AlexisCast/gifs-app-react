@@ -12,3 +12,4 @@
 - feat 8: show gifs from giphy api
 - feat 9: useGif custom hook
 - feat 10: manage cache
+- feat 11: useRef
