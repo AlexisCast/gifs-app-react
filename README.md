@@ -8,3 +8,4 @@
 - feat 4: add search functionality useEffect Debounce
 - feat 5: query validations
 - feat 6: axios with giqhy api
+- feat 7: environment variables

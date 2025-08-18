@@ -1,14 +1,13 @@
-import axios from 'axios'
+import { giphyApi } from '../api/giphy.api'
+
 import type { GiphyResponse } from '../interfaces/giphy.response'
 import type { Gif } from '../interfaces/gif-interface'
 
 export const getGifsByQuery = async (query: string): Promise<Gif[]> => {
-  const response = await axios.get<GiphyResponse>(`https://api.giphy.com/v1/gifs/search`, {
+  const response = await giphyApi<GiphyResponse>(`/search`, {
     params: {
-      api_key: '',
       q: query,
       limit: 10,
-      lang: 'en',
     },
   })
 
