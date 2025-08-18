@@ -9,3 +9,4 @@
 - feat 5: query validations
 - feat 6: axios with giqhy api
 - feat 7: environment variables
+- feat 8: show gifs from giphy api
